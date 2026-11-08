@@ -1,0 +1,18 @@
+{
+  "name": "ai-eval-workbench",
+  "version": "1.0.0",
+  "description": "Offline AI quality evaluation, paired regression analysis and evidence-based release reports.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "ai-eval": "src/cli.mjs" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/cli.mjs --dataset examples/dataset.json --responses examples/candidate.json --reviews examples/candidate-reviews.json --baseline examples/baseline.json --baseline-reviews examples/baseline-reviews.json --out-dir reports/demo",
+    "check": "node --check src/cli.mjs && node --check src/evaluate.mjs && node --check src/report.mjs && node --check src/validate.mjs"
+  },
+  "files": ["src", "examples", "docs", "references", "SKILL.md", "LICENSE", "NOTICE.md", "README.md", "SECURITY.md"],
+  "repository": { "type": "git", "url": "https://github.com/LeiQingliang/ai-eval-workbench.git" },
+  "keywords": ["ai-evaluation", "product-operations", "regression-testing", "llm", "offline"]
+}
