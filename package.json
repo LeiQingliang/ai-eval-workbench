@@ -2,6 +2,7 @@
   "name": "ai-eval-workbench",
   "version": "1.0.0",
   "description": "Offline AI quality evaluation, paired regression analysis and evidence-based release reports.",
+  "author": { "name": "雷清亮", "url": "https://github.com/LeiQingliang" },
   "type": "module",
   "private": false,
   "license": "MIT",

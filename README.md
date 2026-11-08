@@ -2,6 +2,8 @@
 
 **AI 质量评测工作台：把测试用例、已有模型回复与人工复核，变成可追溯的迭代结论。**
 
+**作者与维护者：雷清亮（LeiQingliang）。**
+
 [![CI](https://github.com/LeiQingliang/ai-eval-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/LeiQingliang/ai-eval-workbench/actions/workflows/ci.yml)
 ![Node.js](https://img.shields.io/badge/Node.js-%3E%3D22-397344)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -116,7 +118,7 @@ SKILL.md              可复用的独立质量评审流程
 
 ## 来源与边界
 
-方法受到 [yJie05up/adversarial-review](https://github.com/yJie05up/adversarial-review) 的独立审查、证据与修复复验流程启发。原始链接 `Yjie050211/adversarial-review` 当前重定向到同一仓库。本项目增加了独立实现的评测引擎、输入契约、人工标注绑定、成对比较、报告与测试；保留来源与版权，详见 [NOTICE.md](NOTICE.md) 和 [LICENSE](LICENSE)。
+来源、贡献归属与许可说明见 [NOTICE.md](NOTICE.md) 和 [LICENSE](LICENSE)；功能演进见[改进对照](docs/upstream-comparison.md)。
 
 本项目不是美团、腾讯或任何模型提供方的官方工具；示例不来自其内部数据。仓库可以展示评测设计、badcase 分析和质量运营的实践方式，不能替代真实岗位经历或真实业务结果。
 
